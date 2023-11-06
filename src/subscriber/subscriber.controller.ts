@@ -29,6 +29,6 @@ export class SubscriberController {
 
   @MessagePattern({ cmd: 'get-all-subscribers' })
   getAllSubscribers() {
-    return this.subscriberService.getAllSubscribers();
+    return this.subscriberService.getAllSubscriber();
   }
 }
